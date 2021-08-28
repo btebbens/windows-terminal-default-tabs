@@ -2,6 +2,8 @@
 
 Here's how one can go about opening multiple default tabs with different staring locations in *Windows Terminal*.
 
+![Demo](https://raw.githubusercontent.com/btebbens/windows-terminal-default-tabs/main/demo.png)
+
 ## Configure Profiles
 
 A *Windows Terminal Profile* must be configured for each _unique_ tab. In my case, I needed 3 profiles; one for each repo I was working in. A profile may be used in more than one tab/pane.
