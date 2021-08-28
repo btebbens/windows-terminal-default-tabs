@@ -25,8 +25,8 @@ In my case, I wanted 3 tabs with the last tab containing 3 panes, so my `startup
 `"new-tab -p \"PowerShell App1-Profile\" ; new-tab -p \"PowerShell App2-Profile\"; new-tab -p \"PowerShell App3-Profile\" ; split-pane -p \"PowerShell  App3-Profile\" ; split-pane -v -p \"PowerShell  App3-Profile\""`
 
 Broken down is this list of commands:
-- `new-tab -p \"PowerShell App1-Profile\"` opens the first tab to my `App1-Profile` 
-- `new-tab -p \"PowerShell App2-Profile\"` opens the second tab to `App2-Profile`
-- `new-tab -p \"PowerShell App3-Profile\"` opens the third tab to `App3-Profile`
-- `split-pane -p \"PowerShell  App3-Profile\"` creates a pane in the right 50% on the third tab
-- `split-pane -v -p \"PowerShell  App3-Profile\"` creates a pane int the bottom 50% of the right side on the third tab
+- `new-tab -p \"App1 Profile\"` opens the first tab to my `App1-Profile` 
+- `new-tab -p \"App2 Profile\"` opens the second tab to `App2-Profile`
+- `new-tab -p \"App3 Profile\"` opens the third tab to `App3-Profile`
+- `split-pane -p \"App3 Profile\"` creates a pane in the right 50% on the third tab
+- `split-pane -v -p \"App3 Profile\"` creates a pane int the bottom 50% of the right side on the third tab
